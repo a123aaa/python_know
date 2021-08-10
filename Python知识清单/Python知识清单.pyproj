@@ -1,0 +1,211 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>0ac6ec19-7817-4506-96a2-1060bf2a31aa</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Python知识清单.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Python知识清单</Name>
+    <RootNamespace>Python知识清单</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="bug常见类型.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="else语句.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="for-in语句.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="if语句.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="input.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="object类.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="os模块操作目录相关函数.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pass语句.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python异常处理.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Python知识清单.py" />
+    <Compile Include="九九乘法表.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="位运算符.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="元组%28tuple%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="内置函数range.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="函数%28def%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="函数2%28def%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="函数%28def%29的参数定义.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="列表%28list%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="列表%28list%29的添加，删除，修改.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="列表%28list%29查询和遍历.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="列表%28list%29排序.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="包.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="取整运算.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="变量作用域.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="变量的定义和应用.py" />
+    <Compile Include="可变序列与不可变序列.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="字典%28dict%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="字典%28dict%29的查找，修改，增删，视图.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="字典%28dict%29遍历和生成式.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="字符串%28str%29.py" />
+    <Compile Include="字符串%28str%29分割.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="字符串%28str%29型.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="字符串%28str%29对齐.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="字符串%28str%29大小写变换.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="字符串%28str%29的替换.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="字符串%28str%29的查询.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="字符串%28str%29的比较.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="字符串%28str%29判断.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="封装.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="布尔%28bool%29类型.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="布尔值全是False.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="布尔%28bool%29运算.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="常用的内置模块.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="数据类型.py" />
+    <Compile Include="整数类%28int%29型.py" />
+    <Compile Include="文件对象的常用方法.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="文件打开模式.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="方法重写.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="格式化字符的表达方式.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="注释.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="浮点%28float%29型.py" />
+    <Compile Include="特殊方法和特殊属性.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="算数运算.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="类%28class%29创建.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="类型转换.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="对象的创建.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="继承.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="自定义模块.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="赋值运算.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="运算符优先级.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="集合%28set%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="集合%28set%29的关系.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="集合%28set%29的常用操作.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
